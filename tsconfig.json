@@ -3,8 +3,9 @@
     "module": "commonjs",
     "target": "es2018",
     "inlineSourceMap": true,
-    "outDir": "./built"
+    "outDir": "./built",
+    "pretty": true
   },
+  "include": ["./**/*"],
   "exclude": ["./node_modules/"]
 }
-  
