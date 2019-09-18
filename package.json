@@ -1,0 +1,31 @@
+{
+  "name": "trello-api-ts",
+  "version": "1.0.0",
+  "description": "Trello api test",
+  "scripts": {
+    "test": "mocha --opts mocha.opts"
+  },
+  "author": "Igor Nosovskyi <nosovskyigor@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "4.1.7",
+    "@types/chai-json-schema": "^1.4.4",
+    "@types/mocha": "5.2.7",
+    "@types/node": "^10.0.0",
+    "@types/request": "2.48.1",
+    "@types/request-promise-native": "1.0.16",
+    "chai": "4.2.0",
+    "chai-json-schema-ajv": "^4.0.0",
+    "mocha": "^6.2.0",
+    "raml-1-parser": "^1.1.52",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.7",
+    "ts-node": "8.0.3",
+    "typescript": "3.4.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "eslint": "^6.4.0"
+  }
+}
